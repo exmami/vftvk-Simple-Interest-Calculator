@@ -15,9 +15,8 @@ function compute()
 
     // an alert If principal amount field is blank, is zero or is a negative number
     if  (principal <= "0"){
-        alert("Enter a positive number");
-        principal.focus(); // focus to the Principal input box
-        // return false;
+        alert("Enter a positive number");        
+        window.location.href="#principal" // focus to the Principal input box
     }
     else{
         // calculating interest
